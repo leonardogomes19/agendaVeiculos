@@ -1,0 +1,11 @@
+relação entre 2 tabelas
+
+SELECT a.idcontatos, b.id_veiculos 
+FROM `tblcontatos` AS a 
+INNER JOIN `tblveiculos` AS b 
+on a.idcontatos = b.id_veiculos;
+
+
+SELECT * FROM `tblcontatos` 
+INNER JOIN `tblveiculos` ON(tblcontatos.idcontatos = tblveiculos.idcontatos) 
+WHERE 1;
